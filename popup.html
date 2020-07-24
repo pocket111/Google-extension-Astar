@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UnBlock VK</title>
+    <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="/css/setting.css">
+</head>
+
+<body>
+
+<div class="setting-panel" id="setting-panel">
+    <div style="display: none" id="setting-header" class="setting-header">
+        <img class="closebtn" id="close-settings" src="/img/left-arrow.png" alt=""/>
+        <h2 class="head">Settings</h2>
+    </div>
+    <div style="display: none" id="setting-body" class="setting-body">
+<div class="page-op">
+   <div class="list-content grade">
+     <div class="universal-btn grade-btn" id="five_astar" >
+       <img src="/img/icon-wxhp.svg"> 
+       <span>Five Star Comments</span>
+     </div> 
+	 
+	 <div class="universal-btn grade-btn" id="stopWebRtc" style="display:none;">
+       <span>stop webRtc</span>
+     </div> 
+	 
+	 <div class="universal-btn grade-btn" id="startWebRtc" style="display:none;">
+       <span>start webRtc</span>
+     </div> 
+	 
+   </div>
+ </div> 
+ 
+ <div class="page-op">
+	 <div class="list-content share">
+		 <div id="facebook" name="share_img"><img src="/img/icon-Facebook.svg"></div> 
+		 <div id="twitter" name="share_img"><img src="/img/icon-twitter.svg"></div> 
+		 
+		 <div title="Open the Wechat and scan it for two-dimensional code sharing" class="wechat">
+		 <img src="/img/icon-wechat.svg"> 
+		 <div class="wechatshare" title="" style="display: none;">
+			<img ref="shareImg" src="/img/wechatshare.png">
+		 </div>
+		 </div> 
+		 
+		 <div id="weibo" name="share_img"><img src="/img/icon-weibo.svg"></div> 
+		 <div id="google" name="share_img"><img src="/img/icon-Google.svg"></div> 
+		 <div id="qzone" name="share_img"><img src="/img/icon-qzone.svg"></div>
+	 </div>
+ </div> 
+ 
+ 
+    </div>
+</div>
+
+<header>
+    <div class="logo-box">
+        <img src="/img/settings.png" class="open-setting" id="open-settings" alt="">
+        <img src="/img/logo.png" class="logo" alt="">
+    </div>
+</header>
+
+<main>
+    <p id="notify-unlock" class="notify-unlock" style="display:none;">
+        Please turn Off Unlock Mode in the settings menu to use VPN feature.
+    </p>
+    <label class="on_off_btn">
+        <input id="vpn-on" type="checkbox" class="x-checkbox-input">
+        <div class="on_off_btn_inner_1"></div>
+        <div class="on_off_btn_inner_2"></div>
+        <svg class="on_off_btn_icon" xmlns="http://www.w3.org/2000/svg" width="32" height="34">
+            <path fill="white" fill-rule="evenodd"
+                  d="M16 34C7.163 34 0 26.837 0 18c0-4.562 1.91-8.679 4.973-11.594 2.87-2.73 5.188.743 3.071 2.622A11.963 11.963 0 0 0 4.009 18c0 6.623 5.368 11.991 11.991 11.991 6.623 0 11.991-5.368 11.991-11.991 0-3.558-1.54-6.734-3.978-8.922-2.129-1.912.135-5.393 3.013-2.65C30.084 9.342 32 13.45 32 18c0 8.837-7.163 16-16 16zm0-16a2 2 0 0 1-2-2V2a2 2 0 1 1 4 0v14a2 2 0 0 1-2 2z"></path>
+        </svg>
+    </label>
+    <div class="ip"></div>
+</main>
+
+<footer>
+    <div id="country-select" class="x-select-box">
+        <div class="x-select-view">
+			<img class="x-select-icon" src="/img/flags/CA.png">
+            <div class="x-select-title">Canada</div>            
+			<div class="x-select-badge">Premium</div>            
+			<div class="x-select-arrow"></div>        
+		</div>
+        <div class="x-select-dropdown">
+			<div class="x-select-item" value="CA">                    
+				<img class="x-select-icon" src="/img/flags/CA.png">                    
+				<div class="x-select-title">Canada</div>                    
+				<div class="x-select-badge">Premium</div>                
+			</div>
+			<div class="x-select-item" value="CA">                    
+				<img class="x-select-icon" src="/img/flags/CA.png">                    
+				<div class="x-select-title">Canada</div>                    
+				<div class="x-select-badge">Premium</div>                
+			</div>
+			<div class="x-select-item" value="CA">                    
+				<img class="x-select-icon" src="/img/flags/CA.png">                    
+				<div class="x-select-title">Canada</div>                    
+				<div class="x-select-badge">Premium</div>                
+			</div>
+			<div class="x-select-item" value="CA">                    
+				<img class="x-select-icon" src="/img/flags/CA.png">                    
+				<div class="x-select-title">Canada</div>                    
+				<div class="x-select-badge">Premium</div>                
+			</div>
+		</div>
+    </div>
+</footer>
+
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/popup.js"></script>
+</body>
+</html>
