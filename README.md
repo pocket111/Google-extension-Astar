@@ -1,4 +1,6 @@
 # Astar
-Google extension of browser, which offer a free VPN for Windows or Linux, it is fast,stable and safety.
-You can switch different countries to pick a best VPN network.
+浏览器插件， 免费翻墙的VPN。
 
+#使用方法
+下载后解压到某个目录下，打开浏览器->更多工具->扩展程序->加载已解压扩展程序，浏览选择解压的目录。
+点击开关启用插件，点击右上角插件的图标可以看到当前的运行状态，也可以切换不同国家的节点，挑选网络。
